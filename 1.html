@@ -1,0 +1,26 @@
+<html>
+</html>
+<script >
+var A,B,C;
+var a = 5,b = -886,c = -13,d = -5;
+min = fmin(a,b,c,d);
+ function fmin(a, b, c, d) {
+  if (a < b) {
+  	A = a;
+  } else {
+   A= b;
+  }
+  if (A < c) {
+  	B = A;
+  } else {
+  	B = c;
+  }
+  if (B < d) {
+  	return B;
+  } else {
+  	return d;
+  }
+}
+
+  console.log("min=",min);
+</script>
